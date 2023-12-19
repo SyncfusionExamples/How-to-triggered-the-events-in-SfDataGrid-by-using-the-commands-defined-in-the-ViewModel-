@@ -3,10 +3,10 @@ Events in SfDataGrid can be fired by using commands with the help of Microsoft.M
 
 NuGet Link: https://www.nuget.org/packages/CommunityToolkit.Maui
 
-Refer the below code example in which Maui.Behaviors has been used to convert the SelectionChanged event in SfDataGrid into command.
+Refer the below code example in which Maui.Behaviors has been used to convert the [SelectionChanged](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_SelectionChanged) event in SfDataGrid into command.
 
 ## XAML
-In the XAML page, use the EventToCommandBehavior within the Datagrid's behavior to trigger the command through an event.
+In the XAML page, use the [EventToCommandBehavior](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/behaviors/event-to-command-behavior) within the Datagrid's behavior to trigger the command through an event.
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -68,7 +68,7 @@ The following screenshot shows the SelectionChanged event invoke a command in Sf
 
 ![DataGrid with Selection Command](SfDataGrid_with_SelectionCommand.png)
 
-[View sample in GitHub](https://github.com/SyncfusionExamples/How-to-triggered-the-events-in-SfDataGrid-by-using-the-commands-defined-in-the-ViewModel-/tree/862822)
+[View sample in GitHub](https://github.com/SyncfusionExamples/How-to-triggered-the-events-in-SfDataGrid-by-using-the-commands-defined-in-the-ViewModel-/tree/master)
 
 Take a moment to pursue this [documentation](https://help.syncfusion.com/maui/datagrid/overview), where you can find more about Syncfusion .NET MAUI DataGrid (SfDataGrid) with code examples.
 Please refer to this [link](https://www.syncfusion.com/maui-controls/maui-datagrid) to learn about the essential features of Syncfusion .NET MAUI DataGrid(SfDataGrid).
